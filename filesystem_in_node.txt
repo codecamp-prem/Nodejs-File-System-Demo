@@ -1,0 +1,7 @@
+The fs module
+All you need to work with the filesystem is inside the fs module that is part of the core library
+that came with Node.js.
+The fs module is a sort of wrapper around the standard POSIX functions and exposes a lot of
+methods to access and work with the filesystem. Most of them are in two flavors: the default
+async version and the sync version. Even if the async version is preferable, sometimes the sync
+version is useful for some tasks that don't need extreme performance.
