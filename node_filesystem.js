@@ -1,6 +1,6 @@
 //file: node_filesystem.js
 //Make sure we got a filename on command-line
-if(process.argv.length < 2){ // to number of code line to read file
+if(process.argv.length < 2){ // to number of code line to read file i.e ; in code line
   console.log('Usage: node '+process.argv[1]+ 'FILENAME');
   process.exit(1);
 }
